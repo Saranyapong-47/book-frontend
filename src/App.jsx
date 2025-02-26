@@ -6,7 +6,7 @@ const App = () => {
   const [newBook, setNewBook] = useState({ title: '', author: '', image_url: ''});
   const [editBook, setEditBook] = useState(null);
   const [alertMessage, setAlertMessage] = useState('');
-  const uri = 'https://jubilant-capybara-v6r5wg6r94vp3999-5001.app.github.dev/'
+  const uri = 'https://cuddly-succotash-g4rp654r94qw2v6jr-5001.app.github.dev/';
   
   useEffect(() => {
     fetchBooks();
